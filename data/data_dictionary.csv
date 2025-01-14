@@ -1,0 +1,28 @@
+column_name,type,description,example
+league,Object,The competition.,INT-World Cup
+season,Int64,The year of the tournament.,1930
+team,Object,The name of the national team.,Argentina
+players_used,Float64,Number of players used by the team in the tournament.,21.0
+age,Float64,Average age of the players.,24.3
+possession,Float64,Average possession percentage across all matches.,50.2
+matches_played,Int64,Total number of matches played by the team.,5
+starts,Int64,Total number of starting appearances by players.,22
+minutes,Int64,Total minutes played by the team.,450
+90s_played,Float64,Total matches played expressed in multiples of 90 minutes.,5.0
+goals,Int64,Total goals scored by the team.,4
+goals_minus_penalty,Int64,Total goals scored excluding penalties.,5
+penalty_goals,Int64,Goals scored from penalties.,2
+penalty_attempts,Float64,Total penalty attempts.,2.0
+yellow_cards,Int64,Total yellow cards received by the team.,10
+red_cards,Int64,Total red cards received by the team.,1
+expected_goals,Float64,Expected goals based on statistical modeling.,5.0
+non_penalty_xG,Float64,Expected goals excluding penalties.,1.4
+progressive_carries,Float64,Number of progressive carries by players.,52.0
+progressive_passes,Float64,Number of progressive passes made by players.,105.0
+goals_per_90,Float64,Goals scored per 90 minutes.,1.67
+goals_minus_penalty_per_90,Float64,Non-penalty goals scored per 90 minutes.,	1.85
+xG_per_90,Float64,Expected goals per 90 minutes.,1.13
+non_penalty_xG_per_90,Float64,Non-penalty expected goals per 90 minutes.,1.01
+url,Object,A reference URL for additional information about the team’s stats.,/en/squads/f9fddd6e/1930/Argentina-Men-Stats
+world_cup_winner,Int64,Indicates whether the team won the World Cup for the associated season with a 1 or 0 for a no.,0
+continent,Object,The continent where the team is from.,Europe
